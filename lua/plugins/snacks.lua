@@ -11,7 +11,7 @@ return {
       sections = {
         {
           section = "terminal",
-          cmd = "chafa %LOCALAPPDATA%/nvim/wall.jpeg --format symbols --symbols vhalf --size 60x30 --scale max ",
+          cmd = "chafa %LOCALAPPDATA%/nvim/lua/wall.jpeg --format symbols --symbols vhalf --size 60x30 --scale max ",
           height = 18,
           padding = 1,
         },
