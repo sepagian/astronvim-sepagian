@@ -9,7 +9,7 @@ return {
     opts.mapping["<Tab>"] = nil
     opts.mapping["<S-Tab>"] = cmp.mapping.select_next_item()
     opts.sources = {
-      { name = "copilot", priority = 1000 },
+      { name = "codeium", priority = 1000 },
       { name = "nvim_lsp", priority = 1000 },
       { name = "nvim_lua", priority = 800 },
       { name = "path", priority = 600 },
