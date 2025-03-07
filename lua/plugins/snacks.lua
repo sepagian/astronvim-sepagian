@@ -10,13 +10,7 @@ return {
       enabled = true,
       sections = {
         {
-          section = "terminal",
-          cmd = "chafa %LOCALAPPDATA%/nvim/lua/wall.jpeg --format symbols --symbols vhalf --size 60x30 --scale max ",
-          height = 18,
-          padding = 1,
-        },
-        {
-          pane = 2,
+          pane = 1,
           { section = "keys", gap = 1, padding = 1 },
           { section = "startup" },
         },
